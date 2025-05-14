@@ -48,7 +48,7 @@ function Converter() {
         onChange={(e) => setAmount(e.target.value)}
       />
 
-      <button onClick={convert}>Конвертировать</button>
+      <button className="button" onClick={convert}>Конвертировать</button>
 
       <h2 id="result">{result ? `Результат: ${result}` : 'Результат появится здесь'}</h2>
     </section>
